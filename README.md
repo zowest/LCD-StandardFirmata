@@ -32,7 +32,7 @@ Before running this project, make sure you have the following:
 2. Change into the project directory:
 
 ```bash
-cd Arduino-I2C-LCD-Python-demo
+cd LCD-StandardFirmata
 ```
 
 3. Install the required dependencies:

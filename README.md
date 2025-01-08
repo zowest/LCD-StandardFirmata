@@ -26,7 +26,7 @@ Before running this project, make sure you have the following:
 1. Clone this repository:
 
 ```bash
-https://github.com/zowest/LCD-StandardFirmata.git
+git clone https://github.com/zowest/LCD-StandardFirmata.git
 ```
 
 2. Change into the project directory:

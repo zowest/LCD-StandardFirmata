@@ -1,6 +1,6 @@
 # LCD-StandardFirmata
 
-This project demonstrates how to control an I2C LCD display connected to an Arduino using the PyFirmata library.
+This project demonstrates how to control an I2C LCD display connected to an Arduino using the PyFirmata2 library.
 
 ## Prerequisites
 
@@ -9,7 +9,7 @@ Before running this project, make sure you have the following:
 - Arduino board
 - I2C LCD display
 - Python installed on your computer
-- PyFirmata library installed (`pip install pyfirmata2`)
+- PyFirmata2 library installed (`pip install pyfirmata2`)
 - The following Arduino libraries installed:
   - LiquidCrystal_I2C
   - Firmata

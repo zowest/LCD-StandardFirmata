@@ -1,7 +1,7 @@
-from pyfirmata import Arduino
+from pyfirmata2 import Arduino
 from time import sleep
 # Establish a connection to the Arduino board
-arduino = Arduino('/dev/ttyACM0')
+board = Arduino('/dev/ttyACM0')
 
 # Define the SysEx command for printing a string on the LCD
 LCD_PRINT = 0x01

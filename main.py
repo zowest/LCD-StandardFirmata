@@ -15,13 +15,13 @@ message = "Hello, World!"
 message_bytes = [ord(char) for char in message]
 
 # Set the cursor to the first position
-arduino.send_sysex(LCD_SET_CURSOR, [0, 0])
+board.send_sysex(LCD_SET_CURSOR, [0, 0])
 
 # Send the command and the string to the Arduino
-arduino.send_sysex(LCD_PRINT, message_bytes)
+board.send_sysex(LCD_PRINT, message_bytes)
 
 # Clear the LCD
 # arduino.send_sysex(LCD_CLEAR, [])
 
 # Close the connection to the board
-arduino.exit()
+board.exit()
